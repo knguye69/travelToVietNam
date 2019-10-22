@@ -1,0 +1,54 @@
+
+
+input:focus,
+textarea:focus{
+  border-bottom: solid;
+  border-color: #52bab3;
+}
+
+
+:root{
+  background-color: #e3effb;
+}
+
+.info :target{
+  background: gray;
+  color: white;
+}
+
+#id-north:target{
+  background: #d55d5d;
+  color: black;
+  box-shadow: 0 0 6px rgba(0,0,0,0.2);
+  border-radius: 5%;
+}
+
+#id-central:target{
+  background: #ffdb99;
+  color: red;
+  box-shadow: 0 0 6px rgba(0,0,0,0.2);
+  border-radius: 5%;
+}
+
+#id-south:target{
+  background: #F0E68C;
+  color: #778899;
+  box-shadow: 0 0 6px rgba(0,0,0,0.2);
+  border-radius: 5%;
+}
+
+.box-info{
+    padding: 0 24px 24px;
+    margin: 24px 0;
+    float: left;
+    clear: left;
+    width: 100%;
+    font-weight: 400;
+    border-top: 2px solid #ff5722;
+    background: #eee;
+    font-size: 16px;
+    font-family: open sans, Arial, Tahoma, Verdana;
+    font-style: normal;
+    line-height: 28px
+
+}
